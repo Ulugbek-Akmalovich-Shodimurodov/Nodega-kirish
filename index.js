@@ -1,10 +1,13 @@
 const os = require('os');
 
-// console.log(os);
-
+// Bo'sh xotirani olish (baytda)
 const freemem = os.freemem();
 
-console.log(os.freemem());
+// Foydalanuvchi haqidagi ma'lumot
+const userInfo = os.userInfo();
+
+console.log('Free Memory:', freemem, 'bytes');
+console.log('User Info:', userInfo);
 
 
 
